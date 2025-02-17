@@ -7,11 +7,11 @@ Lab 2 for Spring 25 Data Structures
 Referring to the algorithm you implemented in the function **monotonic** in the
 file **edit_me.py** and assuming that the input list has length **N**,
 
-* the big-O worst-case complexity is the list is larger than two and is decending all the way through, and
-* the big-O best-case complexity is if the list size is two or smaller.
+* the big-O worst-case complexity is N, and
+* the big-O best-case complexity is if the list size is 1.
 
 Referring to the code block below,
-* the big-O worst-case complexity of the function **search** is if key is smaller than the smallest number on the list.
+* the big-O worst-case complexity of the function **search** is log N.
   ```python
   def search(lst, key):
 
